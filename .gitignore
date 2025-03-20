@@ -2,4 +2,4 @@ icon.png
 question.png
 !YT_Downloader/*.png
 .DS_Store
-!YT_Downloader/YT_Downloader_mp*.py
+YT_Downloader/YT_Downloader_mp*.py
