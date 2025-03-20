@@ -57,10 +57,10 @@ def download():
     else:
         new_file = base + ' Movie.mp4'
     os.rename(out_file, new_file)
-    notice.set(f'下載位置：{new_file}\n\n「{option_list[t]}」下載完成')
+    notice.set(f'「{option_list[t]}」下載完成\n\n下載位置：{new_file}')
     print(f"target path = {new_file}\nFile has been successfully downloaded.") # cmd回報狀況
 
-t = tk.Label(win,text="YouTube to MP3 (Python)",
+t = tk.Label(win,text="YouTube to MP3",
              font=("微軟正黑體",20,"bold"),
              bg="#b6dbb7").pack()
 word = tk.Entry(win,bd=2,width=35,fg="gray")
